@@ -1,0 +1,46 @@
+GitHub release QIIME 2 version part 1 part 2
+
+Materials for the 2021 ISB Virtual Microbiome Series
+Output
+All output generated during the walkthrough can be found in the treasure chest. The easiest way to get all of that is to download the entire repository.
+
+Part 1: Amplicon Sequencing Data Analysis with QIIME 2
+Presentation: part 1 Notebook: Open In Colab
+
+You can see the actual workshop walkthrough at https://gibbons-lab.github.io/isb_course_2021/16S. Press ? to get a list of available live options such as slide overviews and speaker mode. Note that some slides are grouped vertically, you can navigate the presentation using the directional buttons on your keyboard. A PDF version (lacks the output previews) is also available.
+
+Part 2: Metabolic Modeling of Bacterial Isolates
+Presentation: part 2 Notebook: Open In Colab
+
+You can see the actual workshop walkthrough at https://gibbons-lab.github.io/isb_course_2021/models. Press ? to get a list of available live options such as slide overviews and speaker mode. Note that some slides are grouped vertically, you can navigate the presentation using the directional buttons on your keyboard. A PDF version (lacks the output previews) is also available.
+
+Licensing
+License
+All source code is licensed under the Apache License 2.0. This includes the notebooks deployed via Google Colaboratory.
+
+Creative Commons License
+Content and artwork is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+
+This covers:
+
+Text content of the presentations.
+Illustrations and derived renders in the illustrations folder.
+Top level images in docs/*/assets.
+The following content is not publically available and is not covered under the CC license above:
+
+Everything in the docs/*/assets/isb folders.
+Those are images relating to the Institute for Systems Biology identity like backgrounds and logos that are licensed exclusively to the Institute for Systems Biology, Seattle, WA, USA.
+FAQ
+How do the presentation slides work?
+The presentation itself is a webpage hosted on GitHub. Basically, it renders dynamically from a markdown file that includes the course. Editing the markdown file is sufficient to change the content of the presentation.
+
+See the reveal docs for more info.
+
+Preview locally
+Open a terminal in the docs folder in the repo and use:
+
+python -m http.server
+This will preview the talks at localhost:8000/16S and localhost:8000/models in a browser. Editing the markdown and reloading the page should be enough.
+
+PDF output
+To generate a PDF of the course, open up the website in chromium or chrome and append ?print-pdf to the address. For instance, if you ran it locally as described above, open localhost:8000/16S?print-pdf in the browser. Then, choose 'print to PDF' (choose margins: none).
